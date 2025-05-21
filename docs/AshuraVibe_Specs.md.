@@ -1,0 +1,33 @@
+# AshuraVibe Specifications
+
+## Overview
+**AshuraVibe** is a Bluetooth-controlled device using a physical resonant sound source (aluminum singing bowl) to produce calming tones for alarms, meditation, and sound therapy. Inspired by Lord Shiva’s transformative energy, it’s created by **AshuraSaptha**.
+
+## Hardware
+- **Resonant Component:** 6-inch aluminum singing bowl (tuned to 432Hz).
+- **Striker Mechanism:** 12V DC solenoid, 50N force, 3 adjustable strike levels (soft, medium, hard).
+- **Microcontroller:** ESP32-WROOM-32 with Bluetooth Low Energy (BLE 5.0).
+- **Power:** 3.7V 2000mAh LiPo battery, USB-C charging.
+- **Enclosure:** 3D-printed ABS plastic (6” x 6” x 4”), rubberized base.
+- **Weight:** ~500g.
+- **Safety:** Overcurrent protection, thermal cutoff.
+
+## Software
+- **Platform:** Android (API 21+).
+- **Features:**
+  - Schedule alarms/meditation sessions.
+  - Frequency presets: 432Hz, 528Hz, 963Hz.
+  - Adjustable striker strength.
+  - Optional Google Fit integration for smart wake-up.
+- **Tech Stack:** Flutter, Firebase backend.
+
+## Electrical
+- **Power Consumption:** 5W (active), 0.1W (standby).
+- **Battery Life:** 48 hours (standby), 4 hours (continuous).
+- **Connectivity Range:** 10 meters.
+
+## License
+This project is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Credit **AshuraSaptha** when using or adapting this work.
+
+## Proof of Invention
+I, **AshuraSaptha**, declare that I am the original creator of **AshuraVibe**, ideated on May 21, 2025.
