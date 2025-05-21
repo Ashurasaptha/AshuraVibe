@@ -1,0 +1,14 @@
+// AshuraVibe - ESP32 Solenoid Control
+// Copyright (c) 2025 AshuraSaptha
+// Licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+
+#define SOLENOID_PIN 5
+void setup() {
+  pinMode(SOLENOID_PIN, OUTPUT);
+}
+void loop() {
+  digitalWrite(SOLENOID_PIN, HIGH);
+  delay(100);
+  digitalWrite(SOLENOID_PIN, LOW);
+  delay(1000);
+}
